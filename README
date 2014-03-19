@@ -1,17 +1,6 @@
 Author: leandro.mora
 Date: 06/09/2013
 
-Summary: Hbase sample connection.
-
-------------------------------------------------------------------------
-Quick start:
-------------------------------------------------------------------------
-
-Check your HBASE version and put that .jar in the maven library:
-		<dependency>
-			<groupId>org.apache.hbase</groupId>
-			<artifactId>hbase</artifactId>
-			<version>0.94.10</version>
-		</dependency>
-		
-After that Initalize your hbase cluster.
+It exposes some HBase functionalities written in Java:
+_Add a column Family
+_Get Max Value for an specific column
